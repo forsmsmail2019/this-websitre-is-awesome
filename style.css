@@ -133,32 +133,45 @@ ul {
 .img{
     display: flex;
     height: 100px;
-    width: 100px;
-    border: 2px solid #3882f6;
-    flex: 2;
+    width: 200px;
+    border: 4px solid #3882f6;
+    flex: 1;
     border-radius: 5px;
 }
 .cards {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 50px;
     flex-wrap: wrap;
 
 }
 .card {
-    width: 100px;
+    width: 200px;
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    gap: 10px;
+    /* flex: 1; */
+    gap: 8px;
 
 }
 .card p {
     text-align: center;
+}
+
+.des-card {
+    font-size: 18px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+
 }
 
 
