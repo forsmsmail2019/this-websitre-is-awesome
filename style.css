@@ -185,8 +185,34 @@ ul {
 }
 
 .sign-up-section {
-    padding: 30px 100px 100px 100px;
+    padding: 100px 100px 100px 100px;
+    display: flex;
     
+    
+}
+
+.blue {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    justify-content: space-between;
+    flex: 1;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: large;
+    
+
+}
+.blue button {
+    background-color: #3882f6;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    padding: 0px 20px;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    
+
 }
 
 
