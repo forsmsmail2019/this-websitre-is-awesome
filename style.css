@@ -127,3 +127,35 @@ ul {
     font-weight: 600;
     color: #1f2937;
 }
+
+.img{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    flex: 2;
+    border-radius: 5px;
+}
+.cards {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+.card {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+.card p {
+    text-align: center;
+}
+
+
